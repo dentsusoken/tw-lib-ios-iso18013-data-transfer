@@ -13,8 +13,8 @@ let package = Package(
             targets: ["MdocDataTransfer18013"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/dentsusoken/tw-lib-ios-iso18013-data-model.git", branch: "feat-UnifiedID"),
-        .package(url: "https://github.com/dentsusoken/tw-lib-ios-iso18013-security.git", branch: "feat-UnifiedID"),
+        .package(url: "https://github.com/dentsusoken/tw-lib-ios-iso18013-data-model.git", branch: "main"),
+        .package(url: "https://github.com/dentsusoken/tw-lib-ios-iso18013-security.git", branch: "main"),
 	],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
